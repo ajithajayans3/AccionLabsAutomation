@@ -1,0 +1,8 @@
+#surefire_0
+#Fri Oct 18 01:33:39 IST 2019
+project.env=TEST_ENV
+testnames=AccionLabTest
+user.dir=D\:\\Ajith A S\\AccionLabsByAjith\\AccionLabsByAjith
+machine=LOCAL
+localRepository=C\:\\Users\\Ajith\\.m2\\repository
+basedir=D\:\\Ajith A S\\AccionLabsByAjith\\AccionLabsByAjith

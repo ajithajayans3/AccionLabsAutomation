@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Ajith_AccionLabAutomationTestSuite]">
+  <test thread-count="5" verbose="0" name="AccionLabTest(failed)">
+    <classes>
+      <class name="com.accion.main.TestRunner">
+        <methods>
+          <include name="run_cukes"/>
+          <include name="close"/>
+          <include name="initLogs"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.accion.main.TestRunner -->
+    </classes>
+  </test> <!-- AccionLabTest(failed) -->
+</suite> <!-- Failed suite [Ajith_AccionLabAutomationTestSuite] -->

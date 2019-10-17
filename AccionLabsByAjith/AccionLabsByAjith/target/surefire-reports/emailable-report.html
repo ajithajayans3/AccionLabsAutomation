@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Ajith_AccionLabAutomationTestSuite</th></tr>
+<tr><td><a href="#t0">AccionLabTest</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">9,518</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Ajith_AccionLabAutomationTestSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">AccionLabTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.accion.main.TestRunner</td><td><a href="#m0">close</a></td><td rowspan="1">1571342631618</td><td rowspan="1">1</td></tr><tr><th colspan="4">AccionLabTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.accion.main.TestRunner</td><td><a href="#m1">run_cukes</a></td><td rowspan="1">1571342624643</td><td rowspan="1">6973</td></tr></tbody>
+</table>
+<h2>AccionLabTest</h2><h3 id="m0">com.accion.main.TestRunner#close</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.accion.common.BaseClass.close(BaseClass.java:258)
+	at com.accion.main.TestRunner.close(TestRunner.java:41)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.accion.main.TestRunner#run_cukes</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><div "featureFile">Feature File: HomePage.feature</div><br/><div "feature">Feature: Fetching the links</div><br/><div "scenario">Scenario: Verification of Header and the links present in home page</div><br/><div "result">Given  user is able to launch the application (failed : 3s)</div><br/><div "result">Then  verify Library Header on home screen (skipped)</div><br/><div "result">And  count the hyperlinks available in the body (skipped)</div></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.NullPointerException
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:48)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.run_cukes(AbstractTestNGCucumberTests.java:14)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.run(AbstractTestNGCucumberTests.java:19)
+Caused by: java.lang.NullPointerException
+	at com.accion.pages.HomePage.appLaunch(HomePage.java:37)
+	at com.accion.stepDefs.HomePageStepDef.user_is_able_to_launch_the_application(HomePageStepDef.java:28)
+	at ✽.Given user is able to launch the application(HomePage.feature:4)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

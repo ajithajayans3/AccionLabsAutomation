@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ajith_AccionLabAutomationTestSuite">
+
+
+	<test name="AccionLabTest" preserve-order="true" parallel ="none">
+	<!-- <parameter name="filePath" value='desiredCapabilities.properties'></parameter> -->
+    <classes>
+      <class name="com.accion.main.TestRunner"/>
+    </classes>
+	</test> 
+
+</suite> 
+
+	
